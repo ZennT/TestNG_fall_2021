@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="GMI-Smoke-Suite" parallel="methods" thread-count="2" verbose="1" >
+
+<!--     vrbose ne kadar yuksek deger verirsek tst sonucu o kadar cok bilgi verir-->
+<!--    verbose is used to define the amount of logging to be performed on the console.  0-10 arasi olabilir-->
+<!--    http://seleniumone-by-arun.blogspot.com/2013/05/158-understanding-usage-of-verbose.html-->
+<!--    verbose is optional-->
+
+    <test name="parallel-test"   >
+
+        <packages>
+
+            <package name="techproed.tests.paralleltesting" />
+
+        </packages>
+
+<!--        <classes>-->
+<!--            <class name=""></class>-->
+<!--        </classes>-->
+<!--        -->
+<!--    </test>-->
+<!--    -->
+<!--    <test name=" ">-->
+
+    </test>
+</suite>
+
+
+
+
+
+
